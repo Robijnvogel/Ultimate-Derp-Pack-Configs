@@ -27,12 +27,31 @@
     <equipment>
         <weapon>
             <sword>
-                <ironSword id="iron_sword"/>
+                <nanoSaber id="">
+				<ironSword id="iron_sword"/>
                 <diamondSword id="diamond_sword"/>
+				<thaumiumSword id="25280" />
+				<fierySword id="27273" />
+				<ironwoodSword id="27286" />
+				<steeleafSword id="27319" />
+				<rubySword id="5340" />
+				<greenSapphireSword id="5339" />
+				<sapphireSword id="5341" />
+				<bronzeSword id="30198" />
+				<steelSword id="7800" />
                 <stoneSword id="stone_sword"/>
                 <goldSword id="golden_sword"/>
                 <woodSword id="wooden_sword"/>
             </sword>
+			<athame id="5279" />
+			<scepter>
+				<scepters min="27306" max="27308" />
+			</scepter>
+			<wand>
+				<wands min="25256" max="25260" />
+				<equalTradeWand id="25283" />
+				<excavationWand id="25284" />
+			</wand>
             <munition>
                 <bow id="bow"/>
                 <arrow id="arrow"/>
@@ -41,36 +60,130 @@
         </weapon>
         <tool>
             <pickaxe>
+				<miningLaser id="30208" />
+				<advanceddiamondDrill id="30478" />
+				<diamondDrill id="30234" />
                 <diamondPickaxe id="diamond_pickaxe"/>
+				<thaumiumPick id="25278" />
                 <goldPickaxe id="golden_pickaxe"/>
+				<miningDrill id="30235" />
+				<fieryPick id="27271" />
+				<ironwoodPick id="27282" />
+				<steeleafPick id="27316" />
+				<rubyPickaxe id="5324" />
+				<greenSapphirePick id="5323" />
+				<sapphirePick id="5325" />
+				<steelPickaxe id="7798" />
+				<bronzePickaxe id="30200" />
                 <ironPickaxe id="iron_pickaxe"/>
                 <stonePickaxe id="stone_pickaxe"/>
                 <woodPickaxe id="wooden_pickaxe"/>
+				<survivalistPickaxe id="13281" />
+				<pickaxeKit id="13383" />
+				<brokenPickaxe id="13279" />
             </pickaxe>
             <shovel>
                 <goldShovel id="golden_shovel"/>
                 <diamondShovel id="diamond_shovel"/>
+				<thaumiumShovel id="25277" />
+				<ironwoodShovel id="27285" />
+				<steeleafShovel id="27318" />
+				<rubyShovel id="5329" />
+				<greenSapphireShovel id="5328" />
+				<sapphireShovel id="5330" />
+				<steelShovel id="7799" />
+				<bronzeShovel id="30197" />
                 <ironShovel id="iron_shovel"/>
                 <stoneShovel id="stone_shovel"/>
                 <woodShovel id="wooden_shovel"/>
+				<survivalistShovel id="13282" />
+				<shovelKit id="13384" />
+				<brokenShovel id="13280" />
             </shovel>
             <axe>
+				<advancedChainsaw id="30479" />
+				<chainsaw id="30233" />
                 <goldAxe id="golden_axe"/>
                 <diamondAxe id="diamond_axe"/>
+				<thaumiumAxe id="25279" />
+				<ironwoodAxe id="27276" />
+				<minotaurAxe id="27298" />
+				<steeleafAxe id="27310" />
+				<rubyAxe id="5281" />
+				<greenSapphireAxe id="5280" />
+				<sapphireAxe id="5282" />
+				<steelAxe id="7796" />
+				<bronzeAxe id="30199" />
                 <ironAxe id="iron_axe"/>
                 <stoneAxe id="stone_axe"/>
                 <woodAxe id="wooden_axe"/>
             </axe>
             <hoe>
-                <goldHoe id="golden_hoe"/>
+                <electricHoe id="30119" />
+				<goldHoe id="golden_hoe"/>
                 <diamondHoe id="diamond_hoe"/>
+				<thaumiumHoe id="25281" />
+				<ironwoodHoe id="27279" />
+				<steeleafHoe id="27313" />
+				<rubyHoe id="5287" />
+				<greenSapphireHoe id="5286" />
+				<sapphireHoe id="5288" />
+				<steelHoe id="7797" />
+				<bronzeHoe id="30196" />
                 <ironHoe id="stone_hoe"/>
                 <stoneHoe id="iron_hoe"/>
                 <woodHoe id="wooden_hoe"/>
             </hoe>
+			<sickle>
+				<sickles min="5331" max="5338" />
+			</sickle>
+			<electricTreetap id="30124" />
+			<treetap id="30212" />
+			<wrench>
+				<electricWrench id="30140" />
+				<bcWrench id="4062" />
+				<ic2Wrench id="30183" />
+				<forestryWrench id="13436" />
+				<MFFSWrench id="11363" />
+				<crescentHammer id="20258" />
+				<screwdriver id="5268" />
+				<sonicScrewdriver id="5275" />
+			</wrench>
+			<handsaw>
+				<diamondHandsaw id="5261" />
+				<ironHandsaw id="5262" />
+				<rubyHandsaw id="5284" />
+				<greenSapphireHandsaw id="5283" />
+				<sapphireHandsaw id="5285" />
+			</handsaw>
+			<scanner>
+				<euReader id="30182" />
+				<ovScanner id="30219" />
+				<odScanner id="30220" />
+				<voltmeter id="5277" />
+			</scanner>
+			<analyzer>
+				<cropnalyzer id="30122" />
+			</analyzer>
+			<frequencyTransmitter id="30134" />
+			<isulationCutter id="30153" />
+			<cfsprayer id="30131" />
+			<crowbar id="7793" />
             <shears id="shears"/>
+			<woolCard id="5342" />
+			<scoop id="13416" />
+			<logTurner id="13126" />
             <fishingRod id="fishing_rod"/>
             <carrotOnAStick id="carrot_on_a_stick"/>
+			<portalgun>
+				<portalgun min="13457" max="13458" />
+			</portalgun>
+			<paint>
+				<painterEmpty id="30170" />
+				<painter min="30154" max="30169" />
+				<paintCan min="5306" max="5322" />
+				<paintBrush min="5289" max="5305" />
+			</paint>
         </tool>
         <armor>
             <helmet>
