@@ -27,192 +27,323 @@
     <equipment>
         <weapon>
             <sword>
-                <nanoSaber id="">
+                <nanoSaber id="IC2:itemNanoSaber"/>
+				<crimsonSword id="Thaumcraft:ItemSwordCrimson"/>
+				<swordOTSephyr id="Thaumcraft:ItemSwordElemental"/>
 				<ironSword id="iron_sword"/>
                 <diamondSword id="diamond_sword"/>
-				<thaumiumSword id="25280" />
-				<fierySword id="27273" />
-				<ironwoodSword id="27286" />
-				<steeleafSword id="27319" />
-				<rubySword id="5340" />
-				<greenSapphireSword id="5339" />
-				<sapphireSword id="5341" />
-				<bronzeSword id="30198" />
-				<steelSword id="7800" />
+				<thaumiumSword id="Thaumcraft:ItemSwordThaumium"/>
+				<voidSword id="Thaumcraft:ItemSwordVoid"/>
+				<fierySword id="TwilightForest:item.fierySword"/>
+				<ironwoodSword id="TwilightForest:item.ironwoodSword"/>
+				<steeleafSword id="TwilightForest:item.steeleafSword"/>
+				<rubySword id="bluepower:ruby_sword"/>
+				<amethystSword id="bluepower:amethyst_sword"/>
+				<sapphireSword id="bluepower:sapphire_sword"/>
+				<bronzeSword id="IC2:itemToolBronzeSword"/>
+				<steelSword id="Railcraft:tool.steel.sword"/>
                 <stoneSword id="stone_sword"/>
                 <goldSword id="golden_sword"/>
                 <woodSword id="wooden_sword"/>
             </sword>
-			<athame id="5279" />
+			<athameBP id="bluepower:athame"/>
+			<athamePR id="ProjRed|Exploration:projectred.exploration.athame"/>
 			<scepter>
-				<scepters min="27306" max="27308" />
+				<twilightScepter id="TwilightForest:item.scepterTwilight"/>
+				<lifeDrainScepter id="TwilightForest:item.scepterLifeDrain"/>
+				<zombieScepter id="TwilightForest:item.scepterZombie"/>
 			</scepter>
 			<wand>
-				<wands min="25256" max="25260" />
-				<equalTradeWand id="25283" />
-				<excavationWand id="25284" />
+				<wands id="Thaumcraft:WandCasting"/>
 			</wand>
             <munition>
+				<plasmaLauncher id="IC2:plasmaLauncher"/>
+				<boneBow id="Thaumcraft:ItemBowBone"/>
                 <bow id="bow"/>
+				<primalArrow id="Thaumcraft:PrimalArrow"/>
                 <arrow id="arrow"/>
                 <snowball id="snowball"/>
             </munition>
         </weapon>
         <tool>
             <pickaxe>
-				<miningLaser id="30208" />
-				<advanceddiamondDrill id="30478" />
-				<diamondDrill id="30234" />
+				<vajra id="GraviSuite:vajra"/>
+				<miningLaser id="IC2:itemToolMiningLaser"/>
+				<advDiamondDrill id="GraviSuite:advDDrill"/>
+				<iridiumDrill id="IC2:itemToolIridiumDrill"/>
+				<diamondDrill id="IC2:itemToolDDrill"/>
+				<pickaxeOTCore id="Thaumcraft:ItemPickaxeElemental"/>
                 <diamondPickaxe id="diamond_pickaxe"/>
-				<thaumiumPick id="25278" />
+				<thaumiumPick id="Thaumcraft:ItemPickThaumium"/>
+				<voidPick id="Thaumcraft:ItemPickVoid"/>
                 <goldPickaxe id="golden_pickaxe"/>
-				<miningDrill id="30235" />
-				<fieryPick id="27271" />
-				<ironwoodPick id="27282" />
-				<steeleafPick id="27316" />
-				<rubyPickaxe id="5324" />
-				<greenSapphirePick id="5323" />
-				<sapphirePick id="5325" />
-				<steelPickaxe id="7798" />
-				<bronzePickaxe id="30200" />
+				<miningDrill id="IC2:itemToolDrill"/>
+				<fieryPick id="TwilightForest:item.fieryPick"/>
+				<ironwoodPick id="TwilightForest:item.ironwoodPick"/>
+				<steeleafPick id="TwilightForest:item.steeleafPick"/>
+				<rubyPickaxe id="bluepower:ruby_pickaxe"/>
+				<amethystPick id="bluepower:amethyst_pickaxe"/>
+				<sapphirePick id="bluepower:sapphire_pickaxe"/>
+				<steelPickaxe id="Railcraft:tool.steel.pickaxe"/>
+				<bronzePickaxe id="IC2:itemToolBronzePickaxe"/>
                 <ironPickaxe id="iron_pickaxe"/>
                 <stonePickaxe id="stone_pickaxe"/>
                 <woodPickaxe id="wooden_pickaxe"/>
-				<survivalistPickaxe id="13281" />
-				<pickaxeKit id="13383" />
-				<brokenPickaxe id="13279" />
+				<survivalistPickaxe id="Forestry:bronzePickaxe"/>
+				<pickaxeKit id="Forestry:kitPickaxe"/>
+				<brokenPickaxe id="Forestry:brokenBronzePickaxe"/>
             </pickaxe>
             <shovel>
+				<shovelOTEarthMover id="Thaumcraft:ItemShovelElemental"/>
                 <goldShovel id="golden_shovel"/>
                 <diamondShovel id="diamond_shovel"/>
-				<thaumiumShovel id="25277" />
-				<ironwoodShovel id="27285" />
-				<steeleafShovel id="27318" />
-				<rubyShovel id="5329" />
-				<greenSapphireShovel id="5328" />
-				<sapphireShovel id="5330" />
-				<steelShovel id="7799" />
-				<bronzeShovel id="30197" />
+				<thaumiumShovel id="Thaumcraft:ItemShovelThaumium"/>
+				<voidShovel id="Thaumcraft:ItemShovelVoid"/>
+				<ironwoodShovel id="TwilightForest:item.ironwoodShovel"/>
+				<steeleafShovel id="TwilightForest:item.steeleafShovel"/>
+				<rubyShovel id="bluepower:ruby_shovel"/>
+				<amethystShovel id="bluepower:amethyst_shovel"/>
+				<sapphireShovel id="bluepower:sapphire_shovel"/>
+				<steelShovel id="Railcraft:tool.steel.shovel"/>
+				<bronzeShovel id="IC2:itemToolBronzeSpade"/>
                 <ironShovel id="iron_shovel"/>
                 <stoneShovel id="stone_shovel"/>
                 <woodShovel id="wooden_shovel"/>
-				<survivalistShovel id="13282" />
-				<shovelKit id="13384" />
-				<brokenShovel id="13280" />
+				<survivalistShovel id="Forestry:bronzeShovel"/>
+				<shovelKit id="Forestry:kitShovel"/>
+				<brokenShovel id="Forestry:brokenBronzeShovel"/>
             </shovel>
             <axe>
-				<advancedChainsaw id="30479" />
-				<chainsaw id="30233" />
+				<advChainsaw id="GraviSuite:advChainsaw"/>
+				<chainsaw id="IC2:itemToolChainsaw"/>
+				<axeOTStream id="Thaumcraft:ItemAxeElemental"/>
                 <goldAxe id="golden_axe"/>
                 <diamondAxe id="diamond_axe"/>
-				<thaumiumAxe id="25279" />
-				<ironwoodAxe id="27276" />
-				<minotaurAxe id="27298" />
-				<steeleafAxe id="27310" />
-				<rubyAxe id="5281" />
-				<greenSapphireAxe id="5280" />
-				<sapphireAxe id="5282" />
-				<steelAxe id="7796" />
-				<bronzeAxe id="30199" />
+				<thaumiumAxe id="Thaumcraft:ItemAxeThaumium"/>
+				<voidAxe id="Thaumcraft:ItemAxeVoid"/>
+				<ironwoodAxe id="TwilightForest:item.ironwoodAxe"/>
+				<minotaurAxe id="TwilightForest:item.minotaurAxe"/>
+				<steeleafAxe id="TwilightForest:item.steeleafAxe"/>
+				<rubyAxe id="bluepower:ruby_axe"/>
+				<amethystAxe id="bluepower:amethyst_axe"/>
+				<sapphireAxe id="bluepower:sapphire_axe"/>
+				<steelAxe id="Railcraft:tool.steel.axe"/>
+				<bronzeAxe id="IC2:itemToolBronzeAxe"/>
                 <ironAxe id="iron_axe"/>
                 <stoneAxe id="stone_axe"/>
                 <woodAxe id="wooden_axe"/>
             </axe>
             <hoe>
-                <electricHoe id="30119" />
+                <electricHoe id="IC2:itemToolHoe"/>
+				<hoeOGrowth id="Thaumcraft:ItemHoeElemental"/>
 				<goldHoe id="golden_hoe"/>
                 <diamondHoe id="diamond_hoe"/>
-				<thaumiumHoe id="25281" />
-				<ironwoodHoe id="27279" />
-				<steeleafHoe id="27313" />
-				<rubyHoe id="5287" />
-				<greenSapphireHoe id="5286" />
-				<sapphireHoe id="5288" />
-				<steelHoe id="7797" />
-				<bronzeHoe id="30196" />
+				<thaumiumHoe id="Thaumcraft:ItemHoeThaumium"/>
+				<voidHoe id="Thaumcraft:ItemHoeVoid"/>
+				<ironwoodHoe id="TwilightForest:item.ironwoodHoe"/>
+				<steeleafHoe id="TwilightForest:item.steeleafHoe"/>
+				<rubyHoe id="bluepower:ruby_hoe"/>
+				<amethystHoe id="bluepower:amethyst_hoe"/>
+				<sapphireHoe id="bluepower:sapphire_hoe"/>
+				<steelHoe id="Railcraft:tool.steel.hoe"/>
+				<bronzeHoe id="IC2:itemToolBronzeHoe"/>
                 <ironHoe id="stone_hoe"/>
                 <stoneHoe id="iron_hoe"/>
                 <woodHoe id="wooden_hoe"/>
             </hoe>
 			<sickle>
-				<sickles min="5331" max="5338" />
+				<diamondSickle id="bluepower:diamond_sickle"/>
+				<rubySickle id="bluepower:ruby_sickle"/>
+				<sapphireSickle id="bluepower:sapphire_sickle"/>
+				<amethystSickle id="bluepower:amethyst_sickle"/>
+				<ironSickle id="bluepower:iron_sickle"/>
+				<goldSickle id="bluepower:gold_sickle"/>
+				<stoneSickle id="bluepower:stone_sickle"/>
+				<woodSickle id="bluepower:wood_sickle"/>
 			</sickle>
-			<electricTreetap id="30124" />
-			<treetap id="30212" />
+			<electricTreetap id="IC2:itemTreetapElectric"/>
+			<treetap id="IC2:itemTreetap"/>
 			<wrench>
-				<electricWrench id="30140" />
-				<bcWrench id="4062" />
-				<ic2Wrench id="30183" />
-				<forestryWrench id="13436" />
-				<MFFSWrench id="11363" />
-				<crescentHammer id="20258" />
-				<screwdriver id="5268" />
-				<sonicScrewdriver id="5275" />
+				<electricWrench id="IC2:itemToolWrenchElectric"/>
+				<bcWrench id="BuildCraft|Core:wrenchItem"/>
+				<ic2Wrench id="IC2:itemToolWrench"/>
+				<forestryWrench id="Forestry:wrench"/>
+				<MFRHammer id="MineFactoryReloaded:hammer"/>
+				<crescentHammer id="ThermalExpansion:wrench"/>
+				<pneumaticWrench id="PneumaticCraft:pneumaticWrench"/>
+				<screwdriverRE id="ResonantEngine:screwdriver"/>
+				<screwdriverBP id="bluepower:screwdriver"/>
+				<silkyScrewdriver id="bluepower:silky_screwdriver"/>
+				<electricScrewdriver id="ProjRed|Expansion:projectred.expansion.electric_screwdriver"/>
 			</wrench>
 			<handsaw>
-				<diamondHandsaw id="5261" />
-				<ironHandsaw id="5262" />
-				<rubyHandsaw id="5284" />
-				<greenSapphireHandsaw id="5283" />
-				<sapphireHandsaw id="5285" />
+				<diamondHandsaw id="ForgeMicroblock:sawDiamond"/>
+				<ironHandsaw id="ForgeMicroblock:sawIron"/>
+				<rubyHandsaw id="bluepower:ruby_saw"/>
+				<amethystHandsaw id="bluepower:amethyst_saw"/>
+				<sapphireHandsaw id="bluepower:sapphire_saw"/>
+				<goldHandsaw id="ProjRed|Exploration:projectred.exploration.sawgold"/>
+				<stoneHandsaw id="ForgeMicroblock:sawStone"/>
 			</handsaw>
 			<scanner>
-				<euReader id="30182" />
-				<ovScanner id="30219" />
-				<odScanner id="30220" />
-				<voltmeter id="5277" />
+				<euReader id="IC2:itemToolMEter"/>
+				<commonScanner id="IC2:itemScanner"/>
+				<advScanner id="IC2:itemScannerAdv"/>
 			</scanner>
-			<analyzer>
-				<cropnalyzer id="30122" />
-			</analyzer>
-			<frequencyTransmitter id="30134" />
-			<isulationCutter id="30153" />
-			<cfsprayer id="30131" />
-			<crowbar id="7793" />
-            <shears id="shears"/>
-			<woolCard id="5342" />
-			<scoop id="13416" />
-			<logTurner id="13126" />
+			<frequencyTransmitter id="IC2:itemFreq"/>
+			<isulationCutter id="IC2:itemToolCutter"/>
+			<cfsprayer id="IC2:itemFoamSprayer"/>
+			<crowbar>
+				<voidCrowbar id="Railcraft:tool.crowbar.void"/>
+				<thaumiumCrowbar id="Railcraft:tool.crowbar.magic"/>
+				<reinfCrowbar id="Railcraft:tool.crowbar.reinforced"/>
+				<commonCrowbar id="Railcraft:tool.crowbar"/>
+			</crowbar>
+			<shears>
+				<steelShears id="Railcraft:tool.steel.shears"/>
+				<ironShears id="shears"/>
+			</shears>
+			<woolCard id="bluepower:wool_card"/>
+			<scoop>
+				<thaumiumScoop id="MagicBees:item.thaumiumScoop"/>
+				<forestryScoop id="Forestry:scoop"/>
+			</scoop>
+			<logTurner id="ExtrabiomesXL:extrabiomes.logturner"/>
+			<thaumaturgeTools>
+				<thaumometer id="Thaumcraft:ItemThaumometer"/>
+				<golemBell id="Thaumcraft:GolemBell"/>
+				<insanityChecker id="Thaumcraft:ItemSanityChecker"/>
+				<thaumonomicon id="Thaumcraft:ItemThaumonomicon"/>
+				<focusPouch id="Thaumcraft:FocusPouch"/>
+			</thaumaturgeTools>
             <fishingRod id="fishing_rod"/>
             <carrotOnAStick id="carrot_on_a_stick"/>
 			<portalgun>
-				<portalgun min="13457" max="13458" />
+				<portalgun1 id="PortalGun:PortalGunBlue"/>
+				<portalgun1 id="PortalGun:PortalGunOrange"/>
 			</portalgun>
+			<graviTool id="GraviSuite:graviTool"/>
 			<paint>
-				<painterEmpty id="30170" />
-				<painter min="30154" max="30169" />
-				<paintCan min="5306" max="5322" />
-				<paintBrush min="5289" max="5305" />
+				<painterEmpty id="IC2:itemToolPainter"/>
+				<paintCan id="bluepower:paint_can"/>
+				<paintBrushBP id="bluepower:paint_brush"/>
+				<paintBrushBC id="BuildCraft|Core:paintbrush"/>
 			</paint>
         </tool>
         <armor>
             <helmet>
+				<quantumsuitHelmet id="IC2:itemArmorQuantumHelmet"/>
+				<nanosuitHelmet id="IC2:itemArmorNanoHelmet"/>
+				<fortressHelmet id="Thaumcraft:ItemHelmetFortress"/>
+				<voidMetalHelmet id="Thaumcraft:ItemHelmetVoid"/>
                 <diamondHelmet id="diamond_helmet"/>
+				<thaumiumHelm id="Thaumcraft:ItemHelmetThaumium"/>
                 <chainHelmet id="chainmail_helmet"/>
+				<bronzeHelmet id="IC2:itemArmorBronzeHelmet"/>
+				<steelHelmet id="Railcraft:armor.steel.helmet"/>
+				<fieryHelm id="TwilightForest:item.fieryHelm"/>
+				<ironwoodHelm id="TwilightForest:item.ironwoodHelm"/>
+				<steeleafHelm id="TwilightForest:item.steeleafHelm"/>
+				<scubaHelmet id="IC2:itemArmorHazmatHelmet"/>
+				<solarHelmet id="IC2:itemSolarHelmet"/>
                 <ironHelmet id="iron_helmet"/>
                 <goldHelmet id="golden_helmet"/>
                 <leatherHelmet id="leather_helmet"/>
+				<apiaristHat id="Forestry:apiaristHelmet"/>
+				<nightvisionGoggles id="IC2:itemNightvisionGoggles"/>
+				<gogglesofRevealing id="Thaumcraft:ItemGoggles"/>
+				<VoidHood id = "Thaumcraft:ItemHelmetVoidFortress"/>
+				<CultistHood id="Thaumcraft:ItemHelmetCultistRobe"/>
+				<CultistHelmet id="Thaumcraft:ItemHelmetCultistPlate"/>
+				<CultistHelmetLeader id="Thaumcraft:ItemHelmetCultistLeaderPlate"/>
             </helmet>
             <chestplate>
-                <diamondChestplate id="diamond_chestplate"/>
+				<graviChest id="GraviSuite:graviChestPlate"/>
+                <quantumsuitBodyarmor id="IC2:itemArmorQuantumChestplate"/>
+				<advNanoChest id="GraviSuite:advNanoChestPlate"/>
+				<nanosuitBodyarmor id="IC2:itemArmorNanoChestplate"/>
+				<fortressChestplate id="Thaumcraft:ItemChestplateFortress"/>
+				<voidMetalChestplate id="Thaumcraft:ItemChestplateVoid"/>
+				<diamondChestplate id="diamond_chestplate"/>
+				<thaumiumChest id="Thaumcraft:ItemChestplateThaumium"/>
                 <chainChestplate id="chainmail_chestplate"/>
                 <ironChestplate id="iron_chestplate"/>
+				<fieryPlate id="TwilightForest:item.fieryPlate"/>
+				<steeleafPlate id="TwilightForest:item.steeleafPlate"/>
+				<ironwoodPlate id="TwilightForest:item.ironwoodPlate"/>
+				<nagascalePlate id="TwilightForest:item.plateNaga"/>
+				<steelChestplate id="Railcraft:armor.steel.plate"/>
+				<bronzeChestplate id="IC2:itemArmorBronzeChestplate"/>
                 <goldChestplate id="golden_chestplate"/>
                 <leatherChestplate id="leather_chestplate"/>
+				<hazmatSuit id="IC2:itemArmorHazmatChestplate"/>
+				<apiaristShirt id="Forestry:apiaristChest"/>
+				<ultimateLappack id="GraviSuite:ultimateLappack"/>
+				<advLappack id="GraviSuite:advLappack"/>
+				<advBatPack id="IC2:itemArmorAdvBatpack"/>
+				<batpack id="IC2:itemArmorBatpack"/>
+				<energyPack id="IC2:itemArmorEnergypack"/>
+				<CFPack id="IC2:itemArmorCFPack"/>
+				<advJetPack id="GraviSuite:advJetpack"/>
+				<jetpackIC2 id="IC2:itemArmorJetpack"/>
+				<electricjetpack id="IC2:itemArmorJetpackElectric"/>
+				<jetpackPR id="ProjRed|Expansion:projectred.expansion.jetpack"/>
+				<backpackPR id="ProjRed|Exploration:projectred.exploration.backpack"/>
+				<ThaumaturgeChest id="Thaumcraft:ItemChestplateRobe"/>
+				<HoverHarness id="Thaumcraft:HoverHarness"/>
+				<VoidRobe id="Thaumcraft:ItemChestplateVoidFortress"/>
+				<CultistRobeChest id="Thaumcraft:ItemChestplateCultistRobe"/>
+				<CultistChestplate id="Thaumcraft:ItemChestplateCultistPlate"/>
+				<CultistChestplateLeader id="Thaumcraft:ItemChestplateCultistLeaderPlate"/>
             </chestplate>
             <leggings>
-                <diamondLeggings id="diamond_leggings"/>
-                <chainLeggings id="chainmail_leggings"/>
+                <quantumsuitLeggings id="IC2:itemArmorQuantumLegs"/>
+				<nanosuitLeggings id="IC2:itemArmorNanoLegs"/>
+				<fortressLeggings id="Thaumcraft:ItemLeggingsFortress"/>
+				<voidMetalLeggings id="Thaumcraft:ItemLeggingsVoid"/>
+				<diamondLeggings id="diamond_leggings"/>
+                <thaumiumLeggings id="Thaumcraft:ItemLeggingsThaumium"/>
+				<fieryLegs id="TwilightForest:item.fieryLegs"/>
+				<ironwoodLegs id="TwilightForest:item.ironwoodLegs"/>
+				<nagascaleLeggings id="TwilightForest:item.legsNaga"/>
+				<steeleafLegs id="TwilightForest:item.steeleafLegs"/>
+				<chainLeggings id="chainmail_leggings"/>
+				<steelLeggings id="Railcraft:armor.steel.legs"/>
+				<bronzeLegs id="IC2:itemArmorBronzeLegs"/>
                 <ironLeggings id="iron_leggings"/>
                 <goldLeggings id="golden_leggings"/>
                 <leatherLeggings id="leather_leggings"/>
+				<hazmatsuitLeggings id="IC2:itemArmorHazmatLeggings"/>
+				<apiaristPants id="Forestry:apiaristLegs"/>
+				<ThaumaturgeLegs id="Thaumcraft:ItemLeggingsRobe"/>
+				<VoidLegs id="Thaumcraft:ItemLeggingsVoidFortress"/>
+				<CultistRobeLegs id="Thaumcraft:ItemLeggingsCultistRobe"/>
+				<CultistLeggings id="Thaumcraft:ItemLeggingsCultistPlate"/>
+				<CultistLeggingsLeader id="Thaumcraft:ItemLeggingsCultistLeaderPlate"/>
             </leggings>
             <boots>
-                <diamondBoots id="diamond_boots"/>
-                <chainBoots id="chainmail_boots"/>
+                <quantumsuitBoots id="IC2:itemArmorQuantumBoots"/>
+				<nanosuitBoots id="IC2:itemArmorNanoBoots"/>
+				<voidMetalBoots id="Thaumcraft:ItemBootsVoid"/>
+				<diamondBoots id="diamond_boots"/>
+				<thaumiumBoots id="Thaumcraft:ItemBootsThaumium"/>
+				<fieryBoots id="TwilightForest:item.fieryBoots"/>
+				<ironwoodBoots id="TwilightForest:item.ironwoodBoots"/>
+				<steeleafBoots id="TwilightForest:item.steeleafBoots"/>
+				<chainBoots id="chainmail_boots"/>
+				<bronzeBoots id="IC2:itemArmorBronzeBoots"/>
                 <ironBoots id="iron_boots"/>
                 <goldBoots id="golden_boots"/>
                 <leatherBoots id="leather_boots"/>
+				<steelBoots id="Railcraft:armor.steel.boots"/>
+				<longfallBoot id="PortalGun:LongFallBoot"/>
+				<longfallBoots id="PortalGun:LongFallBoots"/>
+				<staticBoots id="IC2:itemStaticBoots"/>
+				<rubberBoots id="IC2:itemArmorRubBoots"/>
+				<apiaristShoes id="Forestry:apiaristBoots"/>
+				<bootsofTraveller id="Thaumcraft:BootsTraveller"/>
+				<ThaumaturgeBoots id="Thaumcraft:ItemBootsRobe"/>
+				<CultistBoots id="Thaumcraft:ItemBootsCultist"/>
             </boots>
         </armor>
     </equipment>
@@ -224,6 +355,15 @@
                 <mossStone id="mossy_cobblestone"/>
                 <endStone id="end_stone"/>
                 <whiteStone id="end_stone"/>
+				<redRock id="ExtrabiomesXL:terrain_blocks1" damage="0"/>
+				<redRockCobblestone id="ExtrabiomesXL:terrain_blocks1" damage="1"/>
+				<marbleBP id="bluepower:marble"/>
+				<marblePR id="ProjRed|Exploration:projectred.exploration.stone" damage="0"/>
+				<basaltBP id="bluepower:basalt"/>
+				<basaltBPCobblestone id="bluepower:basalt_cobble"/>
+				<basaltIC2 id="IC2:blockBasalt"/>
+				<basaltPRCobblestone id="ProjRed|Exploration:projectred.exploration.stone" damage="2"/>
+				<basaltPR id="ProjRed|Exploration:projectred.exploration.stone" damage="3"/>
             </stones>
             <oreBlock>
                 <coalOreBlock id="coal_ore"/>
